@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(blurred-sky-background-design_1107-135.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container{
+    width: 50vw;
+    height: 40vh;
+    background-color: rgb(96, 122, 177);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border-radius: 2.5rem; 
+    border: black;
+    box-shadow: 0 0 1rem rgb(240, 231, 231);
+    transition: 0.5s ease; 
+}
+.container:hover{
+transform: scale(1.05);
+
+}
+form label{
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow:0 0 1rem rgb(17, 17, 20);
+}
+#temp{
+    
+    width: 40%;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: rgb(157, 157, 179);
+    background-color: rgb(162, 154, 199);
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 8px 30px;
+    padding: 2px;
+}
+#temp_diff{
+    width: 40%;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: rgb(157, 157, 179);
+    background-color: rgb(162, 154, 199);
+    font-weight: 500;
+    font-size: 1.0rem;
+    margin: 4px 6px;
+}
+#submit{
+    width: 30%;
+    height: 5vh;
+    border-radius: 5px;
+    border-color: rgb(157, 157, 179);
+    background-color: rgb(25, 9, 99);
+    color: white;
+    font-weight: 500;
+    font-size: 1.0rem;
+    margin: 12px 200px;
+    transition: .5s ease;
+}
+#submit:hover{
+    background-color: rgb(127, 127, 206);
+    color: black;
+    box-shadow: 0 0 1rem rgb(25, 9, 99);
+    transform: scale(1.02);
+}
+#result{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 12px 240px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
